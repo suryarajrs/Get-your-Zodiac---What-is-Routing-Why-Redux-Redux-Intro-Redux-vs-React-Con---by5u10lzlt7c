@@ -5,7 +5,8 @@ const tellZodiac=(state=initialState,action)=>{
     switch(action.type){
   
         
-        case "ZODIAC": if(action.payload=="January") {return "Aquarius"}
+        case "ZODIAC": 
+        if(action.payload=="January") {return "Aquarius"}
         if(action.payload=="February") {return "Pisces"}
         if(action.payload=="March") {return "Aries"}
         if(action.payload=="April") {return "Taurus"}
